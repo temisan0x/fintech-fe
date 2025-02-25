@@ -26,19 +26,19 @@ export default function ChooseUs() {
   ];
 
   return (
-    <section className="bg-[#F5F7FA] py-16">
-      <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
+    <section className="bg-[#F5F7FA] py-16 px-4">
+      <div className="max-w-7xl mx-auto">
+        <h1 className="text-3xl font-bold text-gray-900 leading-snug mb-6 md:text-4xl">
           Reasons to Choose FintechX from Us
         </h1>
-        <p className="mt-4 text-gray-600 max-w-2xl text-lg">
+        <p className="text-lg text-gray-600 max-w-2xl mb-12">
           Choose our bank for its seamless mobile banking experience, secure
-          savings accounts, and the convenience of instant transactions. It's
+          savings accounts, and the convenience of instant transactions. It’s
           the perfect solution for managing my finances with ease. I trust your
           bank to keep my money safe and accessible anytime, anywhere.
         </p>
 
-        <div className="grid grid-cols-3 gap-6 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {options.map((option) => (
             <div
               key={option.id}
