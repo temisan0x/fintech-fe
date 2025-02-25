@@ -5,7 +5,7 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 
 export default function Hero() {
   return (
-    <section className="mt-16 py-16 px-10 flex flex-col-reverse lg:flex-row items-center justify-between  mx-auto bg-[#EAF5F6] overflow-hidden  max-w-7xl">
+    <section className="mt-16 py-16 px-4 flex flex-col-reverse lg:flex-row items-center justify-between  mx-auto bg-[#EAF5F6] overflow-hidden  max-w-7xl">
       <div className="lg:w-1/2 text-center lg:text-left pt-10">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
           Modern Banking for a Digital World
