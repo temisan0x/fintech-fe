@@ -1,7 +1,12 @@
+import LatestInsights from "./components/Articles";
 import ChooseUs from "./components/Choose";
+import CtaSection from "./components/CtaSection";
+import ExpertSection from "./components/ExpertSection";
 import Hero from "./components/Hero";
+import KeyFeature from "./components/KeyFeature";
 import LogoSection from "./components/LogoSection";
 import Table from "./components/Table";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -12,12 +17,19 @@ export default function Home() {
         <div className="bg-white">
           <Table />
         </div>
-        <ChooseUs />
+        <div className="bg-[#F4F6F8]">
+          <ChooseUs />
+        </div>
+        <KeyFeature />
+        <ExpertSection />
+        <div>
+          <LatestInsights />
+        </div>
+        <div className="bg-white">
+          <CtaSection />
+          <Footer />
+        </div>
       </div>
     </>
   );
 }
-
-
-/** variable? - a location where values are stored */
-/**is array an object? */
